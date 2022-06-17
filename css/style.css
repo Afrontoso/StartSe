@@ -88,10 +88,42 @@ form [type="submit"]{
 form [type="submit"]:hover{
     cursor: pointer;
 }
+textarea{
+    width: 500px;
+    padding: 10px 15px ;
+    font-size: 18px;
+    height: 100px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px  solid #0080ed;
+}
 main .container-main img {
     width: 600px;
 }
+section h2{
+    color: rgb(0,0,0);
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+}
+section h3{
+    color:rgb(131,131,131);
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+section div .text{
+    padding-right: 50px;
+}
 
+section .desafio{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 100px auto 0px auto;
+}
 .cards{
     width: 90%;
     max-width: 980px;
@@ -137,7 +169,15 @@ main .container-main img {
 .title{
     margin-bottom: 0px;
 }
-.desafio{
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+}
+/* .desafio{
     font-size: 100px;
     display: flex;
     justify-content: center;
@@ -146,4 +186,4 @@ main .container-main img {
     border: 1px solid black;
     margin: 100px auto;
     max-width: 980px;
-}
+} */
