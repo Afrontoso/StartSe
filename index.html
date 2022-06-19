@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -16,19 +18,19 @@
             <div class="menu-section">
                 <div class="container-menu">
                     <input type="checkbox" name="" id="checkbox-menu">
-                    <label for="checkbox-menu">
+                    <label class="menu-botton-container" for="checkbox-menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Artigos</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Artigos</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </header>
@@ -130,25 +132,27 @@
     <section id="form">
         <div class="desafio">
             <div class="text">
-               <h2>Dúvidas?</h2>
-               <h3>Preencha o formulário com suas dúvidas e um de nossos especialistas entrará em contato com você!</h3>
+                <h2>Dúvidas?</h2>
+                <h3>Preencha o formulário com suas dúvidas e um de nossos especialistas entrará em contato com você!
+                </h3>
             </div>
             <div>
-               <form>
-                   <div class="contact">
+                <form>
+                    <div class="contact">
                         <input type="text" placeholder="Nome Completo">
                         <input type="mail" placeholder="E-mail">
-                   </div>
-                   <div class="message">
-                    <textarea rows="4" placeholder="Sua Dúvida"></textarea>
-                   </div>
-                    <div class="submit">
-                       <input type="submit" value="Enviar">
                     </div>
-               </form>
+                    <div class="message">
+                        <textarea rows="4" placeholder="Sua Dúvida"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-    
+
 </body>
+
 </html>
