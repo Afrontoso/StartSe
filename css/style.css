@@ -7,7 +7,6 @@
 
 html, 
 body{
-    height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -86,9 +85,15 @@ form input{
 form [type="submit"]{
     background-color: #0080ed;
     color: white;
+    width: 150px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
 }
 form [type="submit"]:hover{
     cursor: pointer;
+    background-color: rgba(0, 128, 237, 0.75);
+    transform: translateY(-2px);
 }
 textarea{
     width: 500px;
@@ -126,6 +131,10 @@ section .desafio{
     max-width: 980px;
     margin: 100px auto 0px auto;
 }
+/* CARDS */
+a{
+    text-decoration: none;
+}
 .cards{
     width: 90%;
     max-width: 980px;
@@ -148,6 +157,7 @@ section .desafio{
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 .card:hover{
     transform: translateY(-7px);
@@ -157,6 +167,8 @@ section .desafio{
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 .image img{
     position: absolute;
