@@ -4,7 +4,6 @@
     }
     main .container-main img{
         display: none;
-
     }
     h2{
         margin-left: 50px;
@@ -106,10 +105,13 @@
     }
     nav .menu{
         width: 100%;
-
     }
     #checkbox-menu:checked~nav .menu{
         transform: translatex(-100vw);
         transition: 0.5s ease transform;
     }
-}
+    section .desafio{
+        display:  block;
+        width: 380px;
+    }
+}  

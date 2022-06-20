@@ -11,6 +11,8 @@ body{
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
+
+/* HEADER */
 header{
     background-color: #0080ed;
 }
@@ -46,8 +48,10 @@ header .container img{
 #checkbox-menu{
     display: none;
 }
+
+/* MAIN */
 main{
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 main .container-main{
@@ -67,14 +71,14 @@ h2{
 h3{
     color:rgb(131,131,131);
     font-size: 20px;
-    line-height: 20px;
+    line-height: 28px;
     margin: 10px 0;
 }
 form{
     margin-top: 20px;
 }
 form input{
-    width: 250px;
+    width: 380px;
     padding-left: 15px;
     font-size: 18px;
     height: 45px;
@@ -95,42 +99,11 @@ form [type="submit"]:hover{
     background-color: rgba(0, 128, 237, 0.75);
     transform: translateY(-2px);
 }
-textarea{
-    width: 500px;
-    padding: 10px 15px ;
-    font-size: 18px;
-    height: 100px;
-    margin-bottom: 13px;
-    border-radius: 20px;
-    border: 2px  solid #0080ed;
-}
+
 main .container-main img {
     width: 600px;
 }
-section h2{
-    color: rgb(0,0,0);
-    font-size: 45px;
-    line-height: 50px;
-    font-weight: bold;
-}
-section h3{
-    color:rgb(131,131,131);
-    font-size: 20px;
-    line-height: 20px;
-    margin: 10px 0;
-}
-section div .text{
-    padding-right: 50px;
-}
 
-section .desafio{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 980px;
-    margin: 100px auto 0px auto;
-}
 /* CARDS */
 a{
     text-decoration: none;
@@ -183,21 +156,41 @@ a{
 .title{
     margin-bottom: 0px;
 }
-.contact{
-    display: flex;
-    justify-content: space-between;
+
+
+/* CONTATO */
+section h2{
+    color: rgb(0,0,0);
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
 }
-.submit{
-    display: flex;
-    justify-content: end;
+section h3{
+    color:rgb(131,131,131);
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px 0;
 }
-/* .desafio{
-    font-size: 100px;
+section div .text{
+    padding-right: 50px;
+}
+section .desafio{
     display: flex;
-    justify-content: center;
-    height: 400px;
     align-items: center;
-    border: 1px solid black;
-    margin: 100px auto;
+    justify-content: space-between;
     max-width: 980px;
-} */
+    margin: 100px auto 0px auto;
+}
+form div input{
+    width: 100%;
+    margin-left: 0;
+}
+textarea{
+    width: 100%;
+    padding: 10px 15px ;
+    font-size: 18px;
+    height: 100px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px  solid #0080ed;
+}
